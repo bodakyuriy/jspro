@@ -1,16 +1,17 @@
+
 var Number = 10;
 var String = "Hello, World";
 var Boolean = true;
 var Null = null;
 var Undefined = undefined;
-var Object = { name: "Þðà" };
+var Object = { name: "Yura" };
 console.log(Number + '\n', String + '\n', Boolean + '\n', Null + '\n', Undefined + '\n', Object.name)
 
 var a = +"123";
 console.log(typeof (a))
 
 var b = 123;
-var b = b + "abc";
+var b = b + "";
 console.log(typeof (b));
 
 var c = "123";
