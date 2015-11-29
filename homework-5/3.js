@@ -4,16 +4,15 @@ function arrayDiff(a1, a2){
   var o2={}; 
   var diff=[]; 
   var i; 
-  var len; 
   var k;
   
-  for(i=0, len=a1.length; i<len; i++){ 
+  for(var i=0; i<a1.length; i++){ 
     
     o1[a1[i]] = true; 
     
   }
   
-  for(i=0, len=a2.length; i<len; i++){ 
+  for(var i=0; i<a2.length; i++){ 
     
     o2[a2[i]] = true; 
     
