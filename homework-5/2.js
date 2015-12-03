@@ -2,8 +2,8 @@ function obscenelyLargeNumber(str, str2){
   
   if(str.length>str2.length){
     var num1 = str;
-    var num2 = str2
-  }else(str.length<str2.length){
+    var num2 = str2;
+  }else{
     var num1 = str2;
     var num2 = str;
   }
@@ -12,7 +12,7 @@ function obscenelyLargeNumber(str, str2){
   var str2 = String(str2);
   var arr = num1.split('');
   var arr2 = num2.split('');
-  var  arr3 = [];
+  var arr3 = [];
   var num1;
   var num2;
  
@@ -55,4 +55,4 @@ function obscenelyLargeNumber(str, str2){
   
 };
 
-obscenelyLargeNumber('777777777777777777777777777777777777777777777777777', '999999999999999999999999999999999999999999');
+obscenelyLargeNumber('21', '999999999999999999999999999999999999999999');
